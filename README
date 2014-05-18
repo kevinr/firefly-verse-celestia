@@ -1,0 +1,17 @@
+Celestia catalog files for the Firefly 'Verse as described in The Verse in
+Numbers/the official maps etc.
+
+All values taken or derived from The Verse in Numbers 2.0:
+http://pics.fireflyprops.net/TVIN-2.0.pdf
+
+Because I'm a nerd like that, yeah.
+
+To use, symlink (or your system equivalent) the checkout directory into your
+Celestia extras directory, eg.
+
+sudo ln -s /home/kevinr/src/firefly-verse-celestia \
+  /usr/share/celestia/extras/firefly-verse-celestia
+
+Restart Celestia if necessary.
+
+Once Celestia is running, search for 'White Sun' and Go.  You're on your way!

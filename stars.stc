@@ -1,0 +1,220 @@
+# All values taken or derived from The Verse in Numbers 2.0:
+# http://pics.fireflyprops.net/TVIN-2.0.pdf
+
+
+#
+# absolute magnitude is calculated from Luminosity and Sol's absolute magnitude by
+# m = m_sol - 2.5 * log_10( L / L_sol )
+#
+# 696342 km used for Sol's radius
+#
+
+
+#0 "Sol:Sun"
+#{
+#        OrbitBarycenter "Solar System Barycenter"  # RA 0, Dec 0, Distance 0
+#        CustomOrbit "vsop87-sun"
+#
+#        SpectralType "G2V"
+#        AbsMag 4.83
+#
+#        UniformRotation
+#        {
+#            Period         609.12  # 25.38 days
+#            Inclination      7.25
+#            AscendingNode   75.77
+#            MeridianAngle   23.00  # standard meridian
+#        }
+#}
+
+"White Sun:White Star:Bai Hu:White Tiger"
+{
+
+    SpectralType "A0"
+    AbsMag 0.07
+
+    RA 120          # SWAG; somewhere about the center of Taurus
+    Dec 15          # SWAG; somewhere about the center of Taurus
+    Distance 40
+
+    #UniformRotation
+    #{
+    #    Period         609.12  # 25.38 days
+    #    Inclination      7.25
+    #    AscendingNode   75.77
+    #    MeridianAngle   23.00  # standard meridian
+    #}
+}
+
+"Qin Shi Huang"
+{
+    OrbitBarycenter "White Sun"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 132305               # force for protostar
+
+    EllipticalOrbit {
+        Period           65.88
+        SemiMajorAxis    16.31
+    }             
+
+}
+
+"Lux"
+{
+    OrbitBarycenter "White Sun"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 160159               # force for protostar
+
+    EllipticalOrbit {
+            Period          164.32
+            SemiMajorAxis    30.00
+    }             
+
+}
+
+## Georgia system
+"Georgia:Huang Long:Yellow Dragon"
+{
+    OrbitBarycenter "White Sun"
+
+    SpectralType "G0"
+    AbsMag 4.58
+
+    EllipticalOrbit {
+            Period          560.74
+            SemiMajorAxis    68.00
+    }             
+}
+
+"Murphy"
+{
+    OrbitBarycenter "Georgia"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 153195               # force for protostar
+
+    EllipticalOrbit {
+            Period           64.00
+            SemiMajorAxis    16.40
+            # XXX TODO needs inclination?
+    }             
+
+}
+
+## Red Sun system
+"Red Sun:Zhu Que:Red Phoenix"
+{
+    OrbitBarycenter "White Sun"
+
+    SpectralType "G5"
+    AbsMag 5.09
+
+    EllipticalOrbit {
+            Period          560.74
+            SemiMajorAxis    68.00
+            LongOfPericenter 180.0
+    }
+}
+
+"Himinbjorg"
+{
+    OrbitBarycenter "Red Sun"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 160159               # force for protostar
+
+    EllipticalOrbit {
+            Period           63.72
+            SemiMajorAxis    15.95
+            # XXX TODO needs inclination?
+    }             
+
+}
+
+"Heinlein"
+{
+    OrbitBarycenter "Red Sun"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 167122               # force for protostar
+
+    EllipticalOrbit {
+            Period          102.08
+            SemiMajorAxis    21.84
+            # XXX TODO needs inclination?
+    }             
+
+}
+
+## Kalidasa system
+"Kalidasa:Xuan Wu:Black Tortoise"
+{
+    OrbitBarycenter "White Sun"
+
+    SpectralType "F5"
+    AbsMag 3.84
+
+    EllipticalOrbit {
+            Period         1331.00
+            SemiMajorAxis   121.00
+    }
+}
+
+"Penglai"
+{
+    OrbitBarycenter "Kalidasa"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 132305               # force for protostar
+
+    EllipticalOrbit {
+            Period           23.32
+            SemiMajorAxis     8.16
+    }             
+
+}
+
+## Blue Sun system
+"Blue Sun:Qing Long:Blue Dragon"
+{
+    OrbitBarycenter "White Sun"
+
+    SpectralType "F0"
+    AbsMag 2.88
+
+    EllipticalOrbit {
+            Period         2414.95
+            SemiMajorAxis   180.00
+            #needs an Inclination?
+    }
+}
+
+"Burnham"
+{
+    OrbitBarycenter "Blue Sun"
+
+    # protostar
+    SpectralType "M5.5V"        # stolen from Proxima Centuari
+    AbsMag 15.49                # stolen from Proxima Centauri
+    Radius 125342               # force for protostar
+
+    EllipticalOrbit {
+            Period          110.30
+            SemiMajorAxis    23.00
+    }             
+
+}
