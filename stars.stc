@@ -74,6 +74,8 @@
     EllipticalOrbit {
             Period          164.32
             SemiMajorAxis    30.00
+            # Lux needs to be offset to make the 2511 conjunction with Murphy work out
+            LongOfPericenter -70.0
     }             
 
 }
@@ -104,6 +106,8 @@
     EllipticalOrbit {
             Period           64.00
             SemiMajorAxis    16.40
+            # Murphy needs to be offset to make the 2511 conjunction with Lux work out
+            LongOfPericenter 150.0
             # XXX TODO needs inclination?
     }             
 
