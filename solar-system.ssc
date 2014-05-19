@@ -2,6 +2,8 @@
 # http://pics.fireflyprops.net/TVIN-2.0.pdf
 
 
+### White Sun
+
 # Bernadette
 "Bernadette" "White Sun"
 {
@@ -576,6 +578,733 @@
     EllipticalOrbit {
         Period           2.44 #days
         SemiMajorAxis   34347 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+### Georgia
+
+# Ezra
+"Ezra" "Georgia"
+{
+    Radius 4643.5 #km
+
+    EllipticalOrbit {
+        Period          0.21   #yrs
+        SemiMajorAxis    0.350 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Herschel:Ezra I" "Georgia/Ezra"
+{
+    Radius 763.5 #km
+
+    EllipticalOrbit {
+        Period          14.74 #days
+        SemiMajorAxis  207576 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Regina
+"Regina" "Georgia"
+{
+    Radius 4404.5 #km
+
+    EllipticalOrbit {
+        Period          0.62   #yrs
+        SemiMajorAxis    0.725 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Alexandria:Regina I" "Georgia/Regina"
+{
+    Radius 544.5 #km
+
+    EllipticalOrbit {
+        Period          29.48 #days
+        SemiMajorAxis  415152 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Boros
+"Boros" "Georgia"
+{
+    Radius 6250.0 #km
+
+    EllipticalOrbit {
+        Period          1.79   #yrs
+        SemiMajorAxis    1.475 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Ares:Boros I" "Georgia/Boros"
+{
+    Radius 912.0 #km
+
+    EllipticalOrbit {
+        Period          20.20 #days
+        SemiMajorAxis  284456 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Turrent's Moon:Boros II" "Georgia/Boros"
+{
+    Radius 584.0 #km
+
+    EllipticalOrbit {
+        Period          25.12 #days
+        SemiMajorAxis  353648 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Kerry
+"Kerry" "Georgia"
+{
+    Radius 3412.5 #km
+
+    EllipticalOrbit {
+        Period          2.52   #yrs
+        SemiMajorAxis    1.850 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Madczp:Kerry I" "Georgia/Kerry"
+{
+    Radius 931.0 #km
+
+    EllipticalOrbit {
+        Period          17.47 #days
+        SemiMajorAxis  246016 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Ithaca
+"Ithaca" "Georgia"
+{
+    Radius 2558.5 #km
+
+    EllipticalOrbit {
+        Period          4.19   #yrs
+        SemiMajorAxis    2.600 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Priam:Ithaca I" "Georgia/Ithaca"
+{
+    Radius 1820.0 #km
+
+    EllipticalOrbit {
+        Period           7.10 #days
+        SemiMajorAxis   99944 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Prophet
+"Prophet" "Georgia"
+{
+    Radius 5260.5 #km
+
+    EllipticalOrbit {
+        Period          7.19   #yrs
+        SemiMajorAxis    3.725 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Perdido:Prophet I" "Georgia/Prophet"
+{
+    Radius  496.0 #km
+
+    EllipticalOrbit {
+        Period           8.74 #days
+        SemiMajorAxis  123008 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Dunny:Prophet II" "Georgia/Prophet"
+{
+    Radius  507.0 #km
+
+    EllipticalOrbit {
+        Period          17.20 #days
+        SemiMajorAxis  242172 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Elphame
+"Elphame" "Georgia"
+{
+    Radius 71874.5 #km
+
+    EllipticalOrbit {
+        Period         16.00   #yrs
+        SemiMajorAxis    6.350 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Summerhome:Elphame I" "Georgia/Elphame"
+{
+    Radius  647.0 #km
+
+    EllipticalOrbit {
+        Period          88.73 #days
+        SemiMajorAxis 1249300 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Fiddler's Green:Elphame II" "Georgia/Elphame"
+{
+    Radius  536.5 #km
+
+    EllipticalOrbit {
+        Period         191.10 #days
+        SemiMajorAxis 2690800 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Ithendra:Elphame III" "Georgia/Elphame"
+{
+    Radius  580.5 #km
+
+    EllipticalOrbit {
+        Period         313.95 #days
+        SemiMajorAxis 4420600 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sweethome:Elphame IV" "Georgia/Elphame"
+{
+    Radius  490.0 #km
+
+    EllipticalOrbit {
+        Period         409.50 #days
+        SemiMajorAxis 5766000 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"New Vienna:Elphame V" "Georgia/Elphame"
+{
+    Radius  485.0 #km
+
+    EllipticalOrbit {
+        Period          26.21 #days
+        SemiMajorAxis 6173464 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Di Yu
+"Di Yu" "Georgia"
+{
+    Radius  6125.0 #km
+
+    EllipticalOrbit {
+        Period         25.22   #yrs
+        SemiMajorAxis    8.600 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Yama:Di Yu I" "Georgia/Di Yu"
+{
+    Radius  685.5 #km
+
+    EllipticalOrbit {
+        Period           5.19 #days
+        SemiMajorAxis   73036 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Athens
+"Athens" "Georgia"
+{
+    Radius  6051.5 #km
+
+    EllipticalOrbit {
+        Period         26.89   #yrs
+        SemiMajorAxis    8.975 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Ahnooie:Athens III" "Georgia/Athens"
+{
+    Radius  500.0 #km
+
+    EllipticalOrbit {
+        Period           6.14 #days
+        SemiMajorAxis   86490 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Argabuthnon:Athens I" "Georgia/Athens"
+{
+    Radius  750.0 #km
+
+    EllipticalOrbit {
+        Period          12.29 #days
+        SemiMajorAxis  172980 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Ormuzd:Athens II" "Georgia/Athens"
+{
+    Radius 1100.0 #km
+
+    EllipticalOrbit {
+        Period          21.02 #days
+        SemiMajorAxis  295988 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Whitefall:Athens IV" "Georgia/Athens"
+{
+    Radius 1800.0 #km
+
+    EllipticalOrbit {
+        Period          28.94 #days
+        SemiMajorAxis  407464 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Elphame
+"Daedalus" "Georgia"
+{
+    Radius 80232.5 #km
+
+    EllipticalOrbit {
+        Period         35.74   #yrs
+        SemiMajorAxis   10.850 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Arvad's Helm:Daedalus IV" "Georgia/Daedalus"
+{
+    Radius 2631.0 #km
+
+    EllipticalOrbit {
+        Period          40.95 #days
+        SemiMajorAxis  576600 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Notterdam:Daedalus III" "Georgia/Daedalus"
+{
+    Radius 2575.5 #km
+
+    EllipticalOrbit {
+        Period          61.43 #days
+        SemiMajorAxis  864900 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Rea:Daedalus I" "Georgia/Daedalus"
+{
+    Radius 2410.5 #km
+
+    EllipticalOrbit {
+        Period          81.90 #days
+        SemiMajorAxis 1153200 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Box:Daedalus II" "Georgia/Daedalus"
+{
+    Radius 2443.5 #km
+
+    EllipticalOrbit {
+        Period         166.53 #days
+        SemiMajorAxis 2344840 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Illyria:Daedalus V" "Georgia/Daedalus"
+{
+    Radius 2093.0 #km
+
+    EllipticalOrbit {
+        Period         211.58 #days
+        SemiMajorAxis 2979100 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Shenandoah:Daedalus VIII" "Georgia/Daedalus"
+{
+    Radius 1526.0 #km
+
+    EllipticalOrbit {
+        Period         229.87 #days
+        SemiMajorAxis 3236648 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Dakhla:Daedalus VII" "Georgia/Daedalus"
+{
+    Radius 2602.0 #km
+
+    EllipticalOrbit {
+        Period         271.64 #days
+        SemiMajorAxis 3824780 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sault:Daedalus VI" "Georgia/Daedalus"
+{
+    Radius 1445.0 #km
+
+    EllipticalOrbit {
+        Period         311.22 #days
+        SemiMajorAxis 4382160 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Newhope
+"Newhope" "Georgia"
+{
+    Radius  5892.0 #km
+
+    EllipticalOrbit {
+        Period         45.39   #yrs
+        SemiMajorAxis   12.725 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"The Commons:Newhope I" "Georgia/Newhope"
+{
+    Radius 1820.0 #km
+
+    EllipticalOrbit {
+        Period          12.83 #days
+        SemiMajorAxis  180668 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Splendor:Newhope II" "Georgia/Newhope"
+{
+    Radius 1352.5 #km
+
+    EllipticalOrbit {
+        Period          21.57 #days
+        SemiMajorAxis  303676 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Godforsaken:Newhope III" "Georgia/Newhope"
+{
+    Radius  765.0 #km
+
+    EllipticalOrbit {
+        Period          31.67 #days
+        SemiMajorAxis  445904 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Three Hills
+"Three Hills" "Georgia"
+{
+    Radius  6320.0 #km
+
+    EllipticalOrbit {
+        Period         49.46   #yrs
+        SemiMajorAxis   13.475 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"New Lafayette:Three Hills I" "Georgia/Three Hills"
+{
+    Radius  606.5 #km
+
+    EllipticalOrbit {
+        Period           4.91 #days
+        SemiMajorAxis   69192 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Conrad:Three Hills II" "Georgia/Three Hills"
+{
+    Radius  590.0 #km
+
+    EllipticalOrbit {
+        Period           9.01 #days
+        SemiMajorAxis  126852 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Bob:Three Hills III" "Georgia/Three Hills"
+{
+    Radius  672.5 #km
+
+    EllipticalOrbit {
+        Period          13.92 #days
+        SemiMajorAxis  196044 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Meadow
+"Meadow" "Georgia"
+{
+    Radius  5500.0 #km
+
+    EllipticalOrbit {
+        Period         51.54   #yrs
+        SemiMajorAxis   13.850 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Salyut:Meadow I" "Georgia/Meadow"
+{
+    Radius  734.5 #km
+
+    EllipticalOrbit {
+        Period           6.55 #days
+        SemiMajorAxis   92256 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Mir:Meadow II" "Georgia/Meadow"
+{
+    Radius  580.5 #km
+
+    EllipticalOrbit {
+        Period          25.39 #days
+        SemiMajorAxis  357492 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+## Murphy
+# Hera
+"Hera" "Murphy"
+{
+    Radius  5440.5 #km
+
+    EllipticalOrbit {
+        Period          3.24   #yrs
+        SemiMajorAxis    0.360 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Bullet:Hera II" "Murphy/Hera"
+{
+    Radius   87.5 #km
+
+    EllipticalOrbit {
+        Period           2.87 #days
+        SemiMajorAxis   40362 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Eris:Hera I" "Murphy/Hera"
+{
+    Radius  660.5 #km
+
+    EllipticalOrbit {
+        Period           7.37 #days
+        SemiMajorAxis  103788 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Aphrodite
+"Aphrodite" "Murphy"
+{
+    Radius  4628.0 #km
+
+    EllipticalOrbit {
+        Period          3.42   #yrs
+        SemiMajorAxis    0.380 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Sturges:Aphrodite I" "Murphy/Aphrodite"
+{
+    Radius  499.0 #km
+
+    EllipticalOrbit {
+        Period          19.11 #days
+        SemiMajorAxis  269080 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Hill:Aphrodite II" "Murphy/Aphrodite"
+{
+    Radius  749.0 #km
+
+    EllipticalOrbit {
+        Period          25.66 #days
+        SemiMajorAxis  361336 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Thornley:Aphrodite III" "Murphy/Aphrodite"
+{
+    Radius  793.0 #km
+
+    EllipticalOrbit {
+        Period          30.03 #days
+        SemiMajorAxis  422840 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Anton:Aphrodite IV" "Murphy/Aphrodite"
+{
+    Radius  689.5 #km
+
+    EllipticalOrbit {
+        Period          34.13 #days
+        SemiMajorAxis  480500 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Shadow
+"Shadow" "Murphy"
+{
+    Radius  5486.5 #km
+
+    EllipticalOrbit {
+        Period          3.69   #yrs
+        SemiMajorAxis    0.409 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Branson's Mark:Shadow I" "Murphy/Shadow"
+{
+    Radius  698.5 #km
+
+    EllipticalOrbit {
+        Period           9.19 #days
+        SemiMajorAxis  129389 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Ossolambria:Shadow II" "Murphy/Shadow"
+{
+    Radius 1342.0 #km
+
+    EllipticalOrbit {
+        Period          15.29 #days
+        SemiMajorAxis  215264 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Summerfair:Shadow III" "Murphy/Shadow"
+{
+    Radius 1243.0 #km
+
+    EllipticalOrbit {
+        Period          30.58 #days
+        SemiMajorAxis  430528 #km
     }
 
     Albedo 0.20     # interpolated between Moon and Earth
