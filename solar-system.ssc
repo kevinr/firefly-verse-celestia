@@ -1310,6 +1310,563 @@
     Albedo 0.20     # interpolated between Moon and Earth
 }
 
+### Red Sun
+# Jiangyin
+"Jiangyin" "Red Sun"
+{
+    Radius  7003.5 #km
+
+    EllipticalOrbit {
+        Period          0.38   #yrs
+        SemiMajorAxis    0.525 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Tongyi:Jiangyin I" "Red Sun/Jiangyin"
+{
+    Radius  896.5 #km
+
+    EllipticalOrbit {
+        Period           9.10 #days
+        SemiMajorAxis  128121 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Dangun:Jiangyin II" "Red Sun/Jiangyin"
+{
+    Radius  561.5 #km
+
+    EllipticalOrbit {
+        Period          18.29 #days
+        SemiMajorAxis  257548 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Rhilidore:Jiangyin III" "Red Sun/Jiangyin"
+{
+    Radius  579.0 #km
+
+    EllipticalOrbit {
+        Period          28.67 #days
+        SemiMajorAxis  403620 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# New Melbourne
+"New Melbourne" "Red Sun"
+{
+    Radius  4856.5 #km
+
+    EllipticalOrbit {
+        Period          2.88   #yrs
+        SemiMajorAxis    2.025 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Maria:New Melbourne I" "Red Sun/New Melbourne"
+{
+    Radius  584.5 #km
+
+    EllipticalOrbit {
+        Period          18.02 #days
+        SemiMajorAxis  253704 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Destiny:New Melbourne II" "Red Sun/New Melbourne"
+{
+    Radius  603.5 #km
+
+    EllipticalOrbit {
+        Period          32.76 #days
+        SemiMajorAxis  461280 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Greenleaf
+"Greenleaf" "Red Sun"
+{
+    Radius  3569.5 #km
+
+    EllipticalOrbit {
+        Period         18.12   #yrs
+        SemiMajorAxis    6.900 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Dyton:Greenleaf I" "Red Sun/Greenleaf"
+{
+    Radius  520.0 #km
+
+    EllipticalOrbit {
+        Period           8.41 #days
+        SemiMajorAxis  118395 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Agyar:Greenleaf II" "Red Sun/Greenleaf"
+{
+    Radius  799.0 #km
+
+    EllipticalOrbit {
+        Period          14.47 #days
+        SemiMajorAxis  203732 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Bryson's Rock:Greenleaf III" "Red Sun/Greenleaf"
+{
+    Radius  786.5 #km
+
+    EllipticalOrbit {
+        Period          25.94 #days
+        SemiMajorAxis  365180 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Harvest
+"Harvest" "Red Sun"
+{
+    Radius  8992.0 #km
+
+    EllipticalOrbit {
+        Period         24.35   #yrs
+        SemiMajorAxis    8.400 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Farraday:Harvest I" "Red Sun/Harvest"
+{
+    Radius 1079.0 #km
+
+    EllipticalOrbit {
+        Period          20.75 #days
+        SemiMajorAxis  292144 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Higgins' Moon:Harvest II" "Red Sun/Harvest"
+{
+    Radius 1795.0 #km
+
+    EllipticalOrbit {
+        Period          48.05 #days
+        SemiMajorAxis  676544 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# St. Albans
+"St. Albans" "Red Sun"
+{
+    Radius  6250.0 #km
+
+    EllipticalOrbit {
+        Period         34.76   #yrs
+        SemiMajorAxis   10.650 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Pi Gu:St. Albans I" "Red Sun/St. Albans"
+{
+    Radius  694.5 #km
+
+    EllipticalOrbit {
+        Period           5.60 #days
+        SemiMajorAxis   78802 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Anson's World
+"Anson's World" "Red Sun"
+{
+    Radius  6901.0 #km
+
+    EllipticalOrbit {
+        Period         38.49   #yrs
+        SemiMajorAxis   11.400 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Spider:Anson's World II" "Red Sun/Anson's World"
+{
+    Radius 1353.5 #km
+
+    EllipticalOrbit {
+        Period          12.83 #days
+        SemiMajorAxis  180668 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Varley:Anson's World I" "Red Sun/Anson's World"
+{
+    Radius 1195.0 #km
+
+    EllipticalOrbit {
+        Period          21.57 #days
+        SemiMajorAxis  303676 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Steele:Anson's World III" "Red Sun/Anson's World"
+{
+    Radius  948.0 #km
+
+    EllipticalOrbit {
+        Period          38.22 #days
+        SemiMajorAxis  538160 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Jubilee
+"Jubilee" "Red Sun"
+{
+    Radius  5976.0 #km
+
+    EllipticalOrbit {
+        Period         46.33   #yrs
+        SemiMajorAxis   12.900 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Covenant:Jubilee I" "Red Sun/Jubilee"
+{
+    Radius  710.5 #km
+
+    EllipticalOrbit {
+        Period          18.56 #days
+        SemiMajorAxis  261392 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+## Himinbjorg
+# Aesir
+"Aesir" "Himinbjorg"
+{
+    Radius  5962.5 #km
+
+    EllipticalOrbit {
+        Period          3.26   #yrs
+        SemiMajorAxis    0.362 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Bestla:Aesir I" "Himinbjorg/Aesir"
+{
+    Radius 1353.5 #km
+
+    EllipticalOrbit {
+        Period           8.19 #days
+        SemiMajorAxis  115320 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Borr:Aesir II" "Himinbjorg/Aesir"
+{
+    Radius  764.5 #km
+
+    EllipticalOrbit {
+        Period          16.65 #days
+        SemiMajorAxis  234484 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Odin:Aesir III" "Himinbjorg/Aesir"
+{
+    Radius  736.0 #km
+
+    EllipticalOrbit {
+        Period          25.12 #days
+        SemiMajorAxis  353648 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Moab
+"Moab" "Himinbjorg"
+{
+    Radius  4500.5 #km
+
+    EllipticalOrbit {
+        Period          4.13   #yrs
+        SemiMajorAxis    0.458 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Red Rock:Moab I" "Himinbjorg/Moab"
+{
+    Radius  487.5 #km
+
+    EllipticalOrbit {
+        Period           5.73 #days
+        SemiMajorAxis   80724 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Mesa:Moab II" "Himinbjorg/Moab"
+{
+    Radius  543.0 #km
+
+    EllipticalOrbit {
+        Period          12.01 #days
+        SemiMajorAxis  169136 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Brisingamen
+"Brisingamen" "Himinbjorg"
+{
+    Radius  3729.0 #km
+
+    EllipticalOrbit {
+        Period          5.07   #yrs
+        SemiMajorAxis    0.563 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Freya:Brisingamen I" "Himinbjorg/Brisingamen"
+{
+    Radius  618.0 #km
+
+    EllipticalOrbit {
+        Period           4.10 #days
+        SemiMajorAxis   57660 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Alberich:Brisingamen III" "Himinbjorg/Brisingamen"
+{
+    Radius 1184.5 #km
+
+    EllipticalOrbit {
+        Period           8.74 #days
+        SemiMajorAxis  123008 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Beowulf:Brisingamen II" "Himinbjorg/Brisingamen"
+{
+    Radius  739.0 #km
+
+    EllipticalOrbit {
+        Period          16.11 #days
+        SemiMajorAxis  226796 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Anvil
+"Anvil" "Himinbjorg"
+{
+    Radius  4440.0 #km
+
+    EllipticalOrbit {
+        Period          5.90   #yrs
+        SemiMajorAxis    0.655 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Hammer:Anvil I" "Himinbjorg/Anvil"
+{
+    Radius  486.0 #km
+
+    EllipticalOrbit {
+        Period           9.83 #days
+        SemiMajorAxis  138384 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+## Heinlein
+# Triumph
+"Triumph" "Heinlein"
+{
+    Radius  1820.0 #km
+
+    EllipticalOrbit {
+        Period          4.07   #yrs
+        SemiMajorAxis    0.452 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Mycroft:Triumph I" "Heinlein/Triumph"
+{
+    Radius  520.0 #km
+
+    EllipticalOrbit {
+        Period          24.30 #days
+        SemiMajorAxis  342116 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Paquin
+"Paquin" "Heinlein"
+{
+    Radius  5289.5 #km
+
+    EllipticalOrbit {
+        Period          5.28   #yrs
+        SemiMajorAxis    0.586 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Shinbone:Paquin II" "Heinlein/Paquin"
+{
+    Radius  605.0 #km
+
+    EllipticalOrbit {
+        Period           7.92 #days
+        SemiMajorAxis  111476 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Clawthorn:Paquin I" "Heinlein/Paquin"
+{
+    Radius  501.0 #km
+
+    EllipticalOrbit {
+        Period          11.47 #days
+        SemiMajorAxis  161448 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Port Chester:Paquin III" "Heinlein/Paquin"
+{
+    Radius  487.0 #km
+
+    EllipticalOrbit {
+        Period          26.75 #days
+        SemiMajorAxis  376712 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Lazarus
+"Lazarus" "Heinlein"
+{
+    Radius  4481.0 #km
+
+    EllipticalOrbit {
+        Period          5.94   #yrs
+        SemiMajorAxis    0.659 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Dora:Lazarus I" "Heinlein/Lazarus"
+{
+    Radius  715.0 #km
+
+    EllipticalOrbit {
+        Period          20.48 #days
+        SemiMajorAxis  288300 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Silverhold
+"Silverhold" "Heinlein"
+{
+    Radius  4943.5 #km
+
+    EllipticalOrbit {
+        Period         17.12   #yrs
+        SemiMajorAxis    1.900 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Beggar's Tin:Silverhold I" "Heinlein/Silverhold"
+{
+    Radius  573.5 #km
+
+    EllipticalOrbit {
+        Period          23.48 #days
+        SemiMajorAxis  330584 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
 
 
 #    "Mercury" "Sol"
