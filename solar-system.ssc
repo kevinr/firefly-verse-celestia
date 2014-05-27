@@ -1868,6 +1868,850 @@
     Albedo 0.20     # interpolated between Moon and Earth
 }
 
+### Kalidasa
+# Sho-Je Downs
+"Sho-Je Downs" "Kalidasa"
+{
+    Radius  4028.5 #km
+
+    EllipticalOrbit {
+        Period          0.78   #yrs
+        SemiMajorAxis    0.850 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Miyazaki:Sho-Je Downs II" "Kalidasa/Sho-Je Downs"
+{
+    Radius  485.0 #km
+
+    EllipticalOrbit {
+        Period           8.46 #days
+        SemiMajorAxis  119164 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Kuan Lo:Sho-Je Downs I" "Kalidasa/Sho-Je Downs"
+{
+    Radius  515.0 #km
+
+    EllipticalOrbit {
+        Period          11.74 #days
+        SemiMajorAxis  165292 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Verbena
+"Verbena" "Kalidasa"
+{
+    Radius  5769.0 #km
+
+    EllipticalOrbit {
+        Period          1.36   #yrs
+        SemiMajorAxis    1.225 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Lassek:Verbena I" "Kalidasa/Verbena"
+{
+    Radius  732.5 #km
+
+    EllipticalOrbit {
+        Period          13.10 #days
+        SemiMajorAxis  184512 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Barrimend:Verbena II" "Kalidasa/Verbena"
+{
+    Radius 1004.5 #km
+
+    EllipticalOrbit {
+        Period          18.84 #days
+        SemiMajorAxis  265236 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Constance
+"Constance" "Kalidasa"
+{
+    Radius  5988.0 #km
+
+    EllipticalOrbit {
+        Period          2.02   #yrs
+        SemiMajorAxis    1.600 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Barrowclough:Constance I" "Kalidasa/Constance"
+{
+    Radius  689.0 #km
+
+    EllipticalOrbit {
+        Period          10.10 #days
+        SemiMajorAxis  142228 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Disraeli:Constance II" "Kalidasa/Constance"
+{
+    Radius  584.5 #km
+
+    EllipticalOrbit {
+        Period          19.93 #days
+        SemiMajorAxis  280612 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Glacier
+"Glacier" "Kalidasa"
+{
+    Radius  3445.0 #km
+
+    EllipticalOrbit {
+        Period          3.60   #yrs
+        SemiMajorAxis    2.350 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Denali:Glacier I" "Kalidasa/Glacier"
+{
+    Radius  498.0 #km
+
+    EllipticalOrbit {
+        Period          11.19 #days
+        SemiMajorAxis  157604 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Vishnu
+"Vishnu" "Kalidasa"
+{
+    Radius  3671.0 #km
+
+    EllipticalOrbit {
+        Period          4.50   #yrs
+        SemiMajorAxis    2.725 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Ganesha:Vishnu II" "Kalidasa/Vishnu"
+{
+    Radius  492.0 #km
+
+    EllipticalOrbit {
+        Period          10.37 #days
+        SemiMajorAxis  146072 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Rama:Vishnu I" "Kalidasa/Vishnu"
+{
+    Radius  503.0 #km
+
+    EllipticalOrbit {
+        Period          22.39 #days
+        SemiMajorAxis  315208 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Heaven
+"Heaven" "Kalidasa"
+{
+    Radius 67854.5 #km
+
+    EllipticalOrbit {
+        Period          7.55   #yrs
+        SemiMajorAxis    3.850 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Urvasi:Heaven III" "Kalidasa/Heaven"
+{
+    Radius 2140.5 #km
+
+    EllipticalOrbit {
+        Period          49.14 #days
+        SemiMajorAxis  691920 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Menaka:Heaven I" "Kalidasa/Heaven"
+{
+    Radius  767.5 #km
+
+    EllipticalOrbit {
+        Period          60.61 #days
+        SemiMajorAxis  853368 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Rambha:Heaven II" "Kalidasa/Heaven"
+{
+    Radius  936.0 #km
+
+    EllipticalOrbit {
+        Period         102.38 #days
+        SemiMajorAxis 1441500 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Tilottama:Heaven IV" "Kalidasa/Heaven"
+{
+    Radius 1077.0 #km
+
+    EllipticalOrbit {
+        Period         116.03 #days
+        SemiMajorAxis 1633700 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Angel
+"Angel" "Kalidasa"
+{
+    Radius  5369.5 #km
+
+    EllipticalOrbit {
+        Period          9.87   #yrs
+        SemiMajorAxis    4.600 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+# Zephyr
+"Zephyr" "Kalidasa"
+{
+    Radius  2935.0 #km
+
+    EllipticalOrbit {
+        Period          9.87   #yrs
+        SemiMajorAxis    4.600 #AU
+        LongOfPericenter 60    #degrees     # Angel's L4 position
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+# Delphi
+"Delphi" "Kalidasa"
+{
+    Radius  5973.0 #km
+
+    EllipticalOrbit {
+        Period         11.10   #yrs
+        SemiMajorAxis    4.975 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Clio:Delphi II" "Kalidasa/Delphi"
+{
+    Radius  497.0 #km
+
+    EllipticalOrbit {
+        Period           4.91 #days
+        SemiMajorAxis   69129 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Thalia:Delphi I" "Kalidasa/Delphi"
+{
+    Radius  510.0 #km
+
+    EllipticalOrbit {
+        Period          13.38 #days
+        SemiMajorAxis  188356 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Calliope:Delphi III" "Kalidasa/Delphi"
+{
+    Radius  497.0 #km
+
+    EllipticalOrbit {
+        Period          21.57 #days
+        SemiMajorAxis  303676 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# New Kasmir
+"New Kasmir" "Kalidasa"
+{
+    Radius  6335.0 #km
+
+    EllipticalOrbit {
+        Period         12.37   #yrs
+        SemiMajorAxis    5.350 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Skardu:New Kasmir I" "Kalidasa/New Kasmir"
+{
+    Radius 1700.0 #km
+
+    EllipticalOrbit {
+        Period          19.11 #days
+        SemiMajorAxis  269080 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Whittier
+"Whittier" "Kalidasa"
+{
+    Radius  5734.0 #km
+
+    EllipticalOrbit {
+        Period         13.70   #yrs
+        SemiMajorAxis    5.725 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Ita:Whittier I" "Kalidasa/Whittier"
+{
+    Radius  450.0 #km
+
+    EllipticalOrbit {
+        Period          68.80 #days
+        SemiMajorAxis  968688 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+## Penglai
+# Beylix
+"Beylix" "Penglai"
+{
+    Radius  5150.0 #km
+
+    EllipticalOrbit {
+        Period          2.02   #yrs
+        SemiMajorAxis    0.225 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+
+    Rings {
+            Inner    7150 #km
+            Outer   13900 #km
+            #Texture "saturn-rings.png"
+    }
+}
+
+"Charity:Beylix I" "Penglai/Beylix"
+{
+    Radius  735.0 #km
+
+    EllipticalOrbit {
+        Period          17.47 #days
+        SemiMajorAxis  246016 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Cinote:Beylix II" "Penglai/Beylix"
+{
+    Radius  679.0 #km
+
+    EllipticalOrbit {
+        Period          27.85 #days
+        SemiMajorAxis  392088 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"St. Lucius:Beylix III" "Penglai/Beylix"
+{
+    Radius  514.5 #km
+
+    EllipticalOrbit {
+        Period          31.12 #days
+        SemiMajorAxis  438216 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Newhall
+"Newhall" "Penglai"
+{
+    Radius  4903.0 #km
+
+    EllipticalOrbit {
+        Period          2.46   #yrs
+        SemiMajorAxis    0.274 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Severance:Newhall I" "Penglai/Newhall"
+{
+    Radius  586.0 #km
+
+    EllipticalOrbit {
+        Period          12.56 #days
+        SemiMajorAxis  176824 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Darcke:Newhall II" "Penglai/Newhall"
+{
+    Radius 1091.5 #km
+
+    EllipticalOrbit {
+        Period          21.29 #days
+        SemiMajorAxis  299832 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Mohenrichia:Newhall III" "Penglai/Newhall"
+{
+    Radius  923.0 #km
+
+    EllipticalOrbit {
+        Period          27.57 #days
+        SemiMajorAxis  388244 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Oberon
+"Oberon" "Penglai"
+{
+    Radius  5077.5 #km
+
+    EllipticalOrbit {
+        Period          2.65   #yrs
+        SemiMajorAxis    0.295 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Puck:Oberon I" "Penglai/Oberon"
+{
+    Radius  503.5 #km
+
+    EllipticalOrbit {
+        Period           8.05 #days
+        SemiMajorAxis  113398 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Quince:Oberon III" "Penglai/Oberon"
+{
+    Radius  495.0 #km
+
+    EllipticalOrbit {
+        Period          20.75 #days
+        SemiMajorAxis  292144 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Bottom:Oberon II" "Penglai/Oberon"
+{
+    Radius  525.0 #km
+
+    EllipticalOrbit {
+        Period          26.75 #days
+        SemiMajorAxis  376712 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# XXX TODO On furthur consideration, the given values for Lear's orbit make
+#          no sense in the context of the system as a whole.  I'm excluding both
+#          Lear and Six Sigma for the moment.
+# 
+# # Six Sigma
+# # XXX TODO this is actually an arc-shaped asteroid swarm comprised of
+# #          the remains of the specified planet; once I figure out if it's
+# #          possible to specify that, I'll change it.
+# "Six Sigma" "Penglai"
+# {
+#     Radius 12742.0 #km
+# 
+#     EllipticalOrbit {
+#         # XXX TODO no orbit or period for the original planet is specified; I've interpolated one
+#         Period         15.00   #yrs
+#         SemiMajorAxis    5.000 #AU
+#     }
+# 
+#     Albedo 0.30     # stolen from Earth
+# }
+# 
+# # XXX TODO if I ever fix Six Sigma into an asteroid swarm, figure out
+# #          what that makes Lear's orbit look like.
+# "Lear:Six Sigma V" "Penglai/Six Sigma"
+# {
+#     Radius  485.5 #km
+# 
+#     EllipticalOrbit {
+#         Period         940.00 #days (2.57 yrs)
+#         SemiMajorAxis  280972656 #km (1.878 AU)
+#     }
+# 
+#     Albedo 0.12     # stolen from Moon; all settlements underground
+# }
+
+# Ghost
+"Ghost" "Kalidasa"
+{
+    Radius  5875.0 #km
+
+    EllipticalOrbit {
+        Period         34.51   #yrs
+        SemiMajorAxis   10.600 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Inferno:Ghost I" "Kalidasa/Ghost"
+{
+    Radius  528.5 #km
+
+    EllipticalOrbit {
+        Period           4.64 #days
+        SemiMajorAxis   65348 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Xibalia:Ghost II" "Kalidasa/Ghost"
+{
+    Radius  550.5 #km
+
+    EllipticalOrbit {
+        Period          10.65 #days
+        SemiMajorAxis  149916 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Aberdeen
+"Aberdeen" "Kalidasa"
+{
+    Radius  4965.5 #km
+
+    EllipticalOrbit {
+        Period         36.36   #yrs
+        SemiMajorAxis   10.975 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Vesta:Aberdeen I" "Kalidasa/Aberdeen"
+{
+    Radius 1973.0 #km
+
+    EllipticalOrbit {
+        Period          20.75 #days
+        SemiMajorAxis  292144 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Zeus
+"Zeus" "Kalidasa"
+{
+    Radius 66370.5 #km
+
+    EllipticalOrbit {
+        Period         42.09   #yrs
+        SemiMajorAxis   12.100 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Isabel:Zeus V" "Kalidasa/Zeus"
+{
+    Radius  500.0 #km
+
+    EllipticalOrbit {
+        Period          45.05 #days
+        SemiMajorAxis  634260 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sophie:Zeus I" "Kalidasa/Zeus"
+{
+    Radius 2446.0 #km
+
+    EllipticalOrbit {
+        Period          53.78 #days
+        SemiMajorAxis  757268 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Victoria:Zeus II" "Kalidasa/Zeus"
+{
+    Radius 2655.0 #km
+
+    EllipticalOrbit {
+        Period          67.98 #days
+        SemiMajorAxis  957156 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Delynn:Zeus III" "Kalidasa/Zeus"
+{
+    Radius 2555.5 #km
+
+    EllipticalOrbit {
+        Period          88.18 #days
+        SemiMajorAxis 1241612 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Gayle:Zeus IV" "Kalidasa/Zeus"
+{
+    Radius 1243.0 #km
+
+    EllipticalOrbit {
+        Period         136.23 #days
+        SemiMajorAxis 1918156 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Betty:Zeus VI" "Kalidasa/Zeus"
+{
+    Radius  617.0 #km
+
+    EllipticalOrbit {
+        Period         156.98 #days
+        SemiMajorAxis 2210300 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Beaumonde
+"Beaumonde" "Kalidasa"
+{
+    Radius  6013.0 #km
+
+    EllipticalOrbit {
+        Period         46.06   #yrs
+        SemiMajorAxis   12.850 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Hastur:Beaumonde I" "Kalidasa/Beaumonde"
+{
+    Radius  670.0 #km
+
+    EllipticalOrbit {
+        Period           8.24 #days
+        SemiMajorAxis  116089 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Geneva:Beaumonde II" "Kalidasa/Beaumonde"
+{
+    Radius 1340.0 #km
+
+    EllipticalOrbit {
+        Period          25.39 #days
+        SemiMajorAxis  357492 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Djinn's Bane
+"Djinn's Bane" "Kalidasa"
+{
+    Radius 100784.0 #km
+
+    EllipticalOrbit {
+        Period         50.15   #yrs
+        SemiMajorAxis   13.600 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Illat:Djinn's Bane I" "Kalidasa/Djinn's Bane"
+{
+    Radius  725.0 #km
+
+    EllipticalOrbit {
+        Period         106.47 #days
+        SemiMajorAxis 1499160 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Hilal:Djinn's Bane II" "Kalidasa/Djinn's Bane"
+{
+    Radius 1502.0 #km
+
+    EllipticalOrbit {
+        Period         118.76 #days
+        SemiMajorAxis 1672140 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Hubal:Djinn's Bane III" "Kalidasa/Djinn's Bane"
+{
+    Radius 1435.0 #km
+
+    EllipticalOrbit {
+        Period         131.04 #days
+        SemiMajorAxis 1845120 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sin:Djinn's Bane IV" "Kalidasa/Djinn's Bane"
+{
+    Radius 2550.0 #km
+
+    EllipticalOrbit {
+        Period         150.15 #days
+        SemiMajorAxis 2114200 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Ta'lab:Djinn's Bane V" "Kalidasa/Djinn's Bane"
+{
+    Radius 2135.0 #km
+
+    EllipticalOrbit {
+        Period         174.72 #days
+        SemiMajorAxis 2460160 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Wadd:Djinn's Bane VI" "Kalidasa/Djinn's Bane"
+{
+    Radius  952.5 #km
+
+    EllipticalOrbit {
+        Period         221.13 #days
+        SemiMajorAxis 3113640 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Salisbury
+"Salisbury" "Kalidasa"
+{
+    Radius  4047.0 #km
+
+    EllipticalOrbit {
+        Period         54.36   #yrs
+        SemiMajorAxis   14.350 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Lennox:Salisbury I" "Kalidasa/Salisbury"
+{
+    Radius 1006.0 #km
+
+    EllipticalOrbit {
+        Period          14.47 #days
+        SemiMajorAxis  203732 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
 
 #    "Mercury" "Sol"
 #    {
