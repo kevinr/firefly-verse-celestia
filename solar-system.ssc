@@ -2712,6 +2712,420 @@
     Albedo 0.20     # interpolated between Moon and Earth
 }
 
+### Blue Sun
+
+# Meridian
+"Meridian" "Blue Sun"
+{
+    Radius  4738.0 #km
+
+    EllipticalOrbit {
+        Period          2.12   #yrs
+        SemiMajorAxis    1.650 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Burnet:Meridian I" "Blue Sun/Meridian"
+{
+    Radius  502.0 #km
+
+    EllipticalOrbit {
+        Period          21.29 #days
+        SemiMajorAxis  299832 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# New Canaan
+"New Canaan" "Blue Sun"
+{
+    Radius  5085.5 #km
+
+    EllipticalOrbit {
+        Period          2.88   #yrs
+        SemiMajorAxis    2.025 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+
+    Rings {
+            Inner    9700 #km
+            Outer   16700 #km
+            #Texture "saturn-rings.png"
+    }
+}
+
+"Ugarit:New Canaan I" "Blue Sun/New Canaan"
+{
+    Radius  561.5 #km
+
+    EllipticalOrbit {
+        Period          15.02 #days
+        SemiMajorAxis  211420 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Lilac:New Canaan II" "Blue Sun/New Canaan"
+{
+    Radius 2415.0 #km
+
+    EllipticalOrbit {
+        Period          25.94 #days
+        SemiMajorAxis  365180 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Muir
+"Muir" "Blue Sun"
+{
+    Radius  4324.5 #km
+
+    EllipticalOrbit {
+        Period          5.59   #yrs
+        SemiMajorAxis    3.150 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Arminius:Muir I" "Blue Sun/Muir"
+{
+    Radius  761.5 #km
+
+    EllipticalOrbit {
+        Period           9.37 #days
+        SemiMajorAxis  131965 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Shepherd's Mission:Muir II" "Blue Sun/Muir"
+{
+    Radius  485.5 #km
+
+    EllipticalOrbit {
+        Period          14.20 #days
+        SemiMajorAxis  199888 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Fury
+"Fury" "Blue Sun"
+{
+    Radius 184485.0 #km
+
+    EllipticalOrbit {
+        Period         15.25   #yrs
+        SemiMajorAxis    6.150 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Coldstone:Fury II" "Blue Sun/Fury"
+{
+    Radius  789.0 #km
+
+    EllipticalOrbit {
+        Period         245.70 #days
+        SemiMajorAxis 3459600 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Blackwood:Fury I" "Blue Sun/Fury"
+{
+    Radius  500.5 #km
+
+    EllipticalOrbit {
+        Period         273.00 #days
+        SemiMajorAxis 3844000 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Seventh Circle:Fury III" "Blue Sun/Fury"
+{
+    Radius  510.0 #km
+
+    EllipticalOrbit {
+        Period         546.00 #days
+        SemiMajorAxis 7688000 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Nipmuc:Fury IV" "Blue Sun/Fury"
+{
+    Radius 1051.0 #km
+
+    EllipticalOrbit {
+        Period         579.03 #days
+        SemiMajorAxis 8153124 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Genae:Fury V" "Blue Sun/Fury"
+{
+    Radius 1165.0 #km
+
+    EllipticalOrbit {
+        Period         596.78 #days
+        SemiMajorAxis 8402984 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Iscariot:Fury VI" "Blue Sun/Fury"
+{
+    Radius 1095.0 #km
+
+    EllipticalOrbit {
+        Period         625.44 #days
+        SemiMajorAxis 8806604 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Katarina:Fury VIII" "Blue Sun/Fury"
+{
+    Radius 1003.5 #km
+
+    EllipticalOrbit {
+        Period         638.00 #days
+        SemiMajorAxis 8983428 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sakura:Fury VII" "Blue Sun/Fury"
+{
+    Radius 1240.0 #km
+
+    EllipticalOrbit {
+        Period         665.57 #days
+        SemiMajorAxis 9371672 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Highgate
+"Highgate" "Blue Sun"
+{
+    Radius  5175.0 #km
+
+    EllipticalOrbit {
+        Period         27.68   #yrs
+        SemiMajorAxis    9.150 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Stonewall:Highgate II" "Blue Sun/Highgate"
+# XXX TODO supposedly there's a space elevator linking Highgate and Stonewall
+{
+    Radius  555.0 #km
+
+    EllipticalOrbit {
+        Period           1.00 #days
+        SemiMajorAxis   29179 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Perth:Highgate I" "Blue Sun/Highgate"
+{
+    Radius  700.0 #km
+
+    EllipticalOrbit {
+        Period          15.83 #days
+        SemiMajorAxis  222952 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Dragon's Egg
+"Dragon's Egg" "Blue Sun"
+{
+    Radius  93150.0 #km
+
+    EllipticalOrbit {
+        Period         40.41   #yrs
+        SemiMajorAxis   11.775 #AU
+    }
+
+    Albedo 0.51     # stolen from Jupiter
+}
+
+"Yudhishtira:Dragon's Egg I" "Blue Sun/Dragon's Egg"
+{
+    Radius  869.0 #km
+
+    EllipticalOrbit {
+        Period          84.63 #days
+        SemiMajorAxis 1191640 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Bhima:Dragon's Egg II" "Blue Sun/Dragon's Egg"
+{
+    Radius  580.0 #km
+
+    EllipticalOrbit {
+        Period          95.55 #days
+        SemiMajorAxis 1345400 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Nakula:Dragon's Egg III" "Blue Sun/Dragon's Egg"
+{
+    Radius  494.0 #km
+
+    EllipticalOrbit {
+        Period         109.20 #days
+        SemiMajorAxis 1537600 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Sahadeva:Dragon's Egg IV" "Blue Sun/Dragon's Egg"
+{
+    Radius  696.0 #km
+
+    EllipticalOrbit {
+        Period         122.85 #days
+        SemiMajorAxis 1729800 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"Glynis:Dragon's Egg V" "Blue Sun/Dragon's Egg"
+{
+    Radius  495.0 #km
+
+    EllipticalOrbit {
+        Period         136.50 #days
+        SemiMajorAxis 1922000 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Deadwood
+"Deadwood" "Blue Sun"
+{
+    Radius  4965.0 #km
+
+    EllipticalOrbit {
+        Period         52.52   #yrs
+        SemiMajorAxis   14.025 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Haven:Deadwood I" "Blue Sun/Deadwood"
+{
+    Radius 1506.0 #km
+
+    EllipticalOrbit {
+        Period          13.10 #days
+        SemiMajorAxis  184512 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+"New Omaha:Deadwood II" "Blue Sun/Deadwood"
+{
+    Radius  512.5 #km
+
+    EllipticalOrbit {
+        Period          26.21 #days
+        SemiMajorAxis  369024 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+# Shenzhou
+"Shenzhou" "Blue Sun"
+{
+    Radius  5930.0 #km
+
+    EllipticalOrbit {
+        Period         54.64   #yrs
+        SemiMajorAxis   14.400 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Tiangong:Shenzhou I" "Blue Sun/Shenzhou"
+{
+    Radius 1510.0 #km
+
+    EllipticalOrbit {
+        Period          30.03 #days
+        SemiMajorAxis  422840 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
+
+## Burnham
+# Miranda
+"Miranda" "Burnham"
+{
+    Radius  5511.5 #km
+
+    EllipticalOrbit {
+        Period          3.41   #yrs
+        SemiMajorAxis    0.379 #AU
+    }
+
+    Albedo 0.30     # stolen from Earth
+}
+
+"Caliban:Miranda I" "Burnham/Miranda"
+{
+    Radius 1455.0 #km
+
+    EllipticalOrbit {
+        Period           6.83 #days
+        SemiMajorAxis   96100 #km
+    }
+
+    Albedo 0.20     # interpolated between Moon and Earth
+}
 
 #    "Mercury" "Sol"
 #    {
