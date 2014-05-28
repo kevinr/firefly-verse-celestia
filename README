@@ -4,10 +4,13 @@ Numbers/the official maps etc.
 All values taken or derived from The Verse in Numbers 2.0:
 http://pics.fireflyprops.net/TVIN-2.0.pdf
 
+As of May 28, 2014, contains all planets, moons, and Cortex stations with
+orbital data given in TVIN 2.0 except Lear, as noted in the source.
+
 Because I'm a nerd like that, yeah.
 
-To use, symlink (or your system equivalent) the checkout directory into your
-Celestia extras directory, eg.
+To use on Linux or Mac OS X, symlink the checkout directory into your Celestia
+extras directory, eg.
 
 sudo ln -s /home/kevinr/src/firefly-verse-celestia \
   /usr/share/celestia/extras/firefly-verse-celestia
@@ -15,3 +18,10 @@ sudo ln -s /home/kevinr/src/firefly-verse-celestia \
 Restart Celestia if necessary.
 
 Once Celestia is running, search for 'White Sun' and Go.  You're on your way!
+
+All questions, comments, corrections, emendations, etc to
+kevinr@free-dissociation.com.
+
+In particular if you have meshes for the various stations (Niska's skyplex, the
+Sky Mall, etc.), and you would be willing to grant me permission to
+redistribute them here, I would love to have access to them.
