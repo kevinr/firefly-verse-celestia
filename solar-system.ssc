@@ -583,6 +583,209 @@
     Albedo 0.20     # interpolated between Moon and Earth
 }
 
+## Cortex Relay Stations
+
+# Ring 1
+
+"Cortex Relay Station 1A:Georgia L4 Asteroid" "White Sun"
+{
+    Radius  647.0 #km
+
+    EllipticalOrbit {
+        Period         560.74  #yrs
+        SemiMajorAxis   68.000 #AU
+        LongOfPericenter   60 #deg      # Georgia's L4
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 1B:Georgia L5 Asteroid" "White Sun"
+{
+    Radius  542.0 #km
+
+    EllipticalOrbit {
+        Period         560.74  #yrs
+        SemiMajorAxis   68.000 #AU
+        LongOfPericenter  -60 #deg      # Georgia's L5
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 1C:Red Sun L4 Asteroid" "White Sun"
+{
+    Radius  489.0 #km
+
+    EllipticalOrbit {
+        Period         560.74  #yrs
+        SemiMajorAxis   68.000 #AU
+        LongOfPericenter -120 #deg      # Red Sun's L4
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 1D:Red Sun L5 Asteroid" "White Sun"
+{
+    Radius  502.0 #km
+
+    EllipticalOrbit {
+        Period         560.74  #yrs
+        SemiMajorAxis   68.000 #AU
+        LongOfPericenter  120 #deg      # Red Sun's L5
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+# Ring 2
+
+"Cortex Relay Station 2A:Kalidasa + 30°" "White Sun"
+{
+    Radius  485.0 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter   30 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2B:Kalidasa L4" "White Sun"
+{
+    Radius  492.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter   60 #deg      # Kalidasa's L4
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2C:Kalidasa + 90°" "White Sun"
+{
+    Radius  501.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter   90 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2D:Kalidasa + 120°" "White Sun"
+{
+    Radius  509.0 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  120 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2E:Kalidasa + 150°" "White Sun"
+{
+    Radius  496.0 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  150 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2F:Kalidasa L3" "White Sun"
+{
+    Radius  496.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  180 #deg      # Kalidasa's L3
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2G:Kalidasa - 30°" "White Sun"
+{
+    Radius  544.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  -30 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2H:Kalidasa L5" "White Sun"
+{
+    Radius  584.0 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  -60 #deg      # Kalidasa's L5
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2I:Kalidasa - 90°" "White Sun"
+{
+    Radius  536.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  -90 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2J:Kalidasa - 120°" "White Sun"
+{
+    Radius  580.5 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  -120 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+"Cortex Relay Station 2K:Kalidasa - 150°" "White Sun"
+{
+    Radius  500.0 #km
+
+    EllipticalOrbit {
+        Period        1331.00  #yrs
+        SemiMajorAxis  121.000 #AU
+        LongOfPericenter  -150 #deg
+    }
+
+    Albedo 0.50     # their whole job is to be reflective
+}
+
+
+
 ### Georgia
 
 # Ezra
